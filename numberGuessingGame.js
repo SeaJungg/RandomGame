@@ -62,6 +62,9 @@ function checkYourNumber(userGuess){
     
 
     guessCount++;
+    if(userGuess === answerNumber){
+        
+    }
     document.getElementById("body").style.backgroundColor = emergencyColorchart[Number(life)];
     life -= 1;
     guessForm.value = '';
